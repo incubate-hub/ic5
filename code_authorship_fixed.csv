@@ -1,0 +1,93 @@
+ChangeID;Author;File;LineNumber;CodeChange
+1;Alice;file1.py;10;"def foo():
+    print(""Hello; world!"")"
+2;Bob;file2.py;20;"x = 1; y = 2"
+3;Charlie;file1.py;30;import numpy as np
+4;David;file3.py;40;"if x > y:
+    print(""x is greater than y"")"
+5;Eve;file2.py;50;"for i in range(10):
+    print(i); print(""Hello"")"
+6;Alice;file1.py;60;import pandas as pd
+7;Bob;file2.py;70;"def bar(x, y):
+    return x + y"
+8;Charlie;file1.py;80;"class MyClass:
+    def __init__(self, x):
+        self.x = x"
+9;David;file3.py;90;"print(""Hello, world!"")"
+10;Eve;file2.py;100;"a = [1, 2, 3];
+b = [4, 5, 6];
+c = a + b"
+11;Alice;file1.py;110;import matplotlib.pyplot as plt
+12;Bob;file2.py;120;"if x == 1 and y == 2:
+    print(""Both conditions are true"")"
+13;Charlie;file1.py;130;"for i in range(5):
+    print(i)"
+14;David;file3.py;140;import sys
+15;Eve;file2.py;150;"def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)"
+16;Alice;file1.py;160;"x = [1, 2, 3, 4, 5]
+y = [num ** 2 for num in x]"
+17;Bob;file2.py;170;"try:
+    x = int(input(""Enter a number: ""))
+except ValueError:
+    print(""Invalid input"")"
+18;Charlie;file1.py;180;"with open(""file.txt"", ""r"") as f:
+    lines = f.readlines()"
+19;David;file3.py;190;"def hello(name):
+    print(""Hello, "" + name + ""!"")"
+20;Eve;file2.py;200;import os
+21;Alice;file1.py;210;"s = ""Hello, world!""
+print(s.upper())"
+22;Bob;file2.py;220;"d = {""a"": 1, ""b"": 2, ""c"": 3}
+print(d.keys())"
+23;Bob;file1.py;55;"if x > y:
+    print(""x is greater than y"")"
+24;Alice;file2.py;10;"def bar():
+    print(""Hello, again!"")"
+25;Alice;file1.py;10;"def foo():
+    print(""Hello, world!"")"
+26;Bob;file2.py;20;"x = 1; y = 2"
+27;Charlie;file1.py;30;import numpy as np
+28;David;file3.py;40;"if x > y:
+    print(""x is greater than y"")"
+29;Eve;file2.py;50;"for i in range(10):
+    print(i); print(""Hello"")"
+30;Alice;file1.py;60;"def bar():
+    return 42"
+31;Bob;file2.py;70;"z = x + y"
+32;Charlie;file1.py;80;"import pandas as pd"
+33;David;file3.py;90;"print(""Hello from David!"")"
+34;Eve;file2.py;100;"print(""Goodbye!"")"
+35;Alice;file1.py;110;"x = np.array([1, 2, 3])"
+36;Bob;file2.py;120;"y = np.array([4, 5, 6])"
+37;Charlie;file1.py;130;"z = np.dot(x, y)"
+38;David;file3.py;140;"print(""The result is: "", z)"
+39;Eve;file2.py;150;"for i in range(len(x)):
+    print(x[i] + y[i])"
+40;Alice;file1.py;160;"a = 10
+if a < 5:
+    print(""a is less than 5"")
+else:
+    print(""a is greater than or equal to 5"")"
+41;Bob;file2.py;170;"a = 0
+while a < 10:
+    print(a)
+    a += 1"
+42;Charlie;file1.py;180;"import matplotlib.pyplot as plt
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+plt.plot(x, y)"
+43;David;file3.py;190;"for i in range(5):
+    print(i)"
+44;Eve;file2.py;200;"a = [1, 2, 3]
+b = [4, 5, 6]
+c = a + b"
+45;Alice;file1.py;210;"print(""Hello, Alice!"")"
+46;Bob;file2.py;220;"print(""Hello, Bob!"")"
+47;Charlie;file1.py;230;"print(""Hello, Charlie!"")"
+48;David;file3.py;240;"print(""Hello, David!"")"
+49;Eve;file2.py;250;"print(""Hello, Eve!"")"
+50;Alice;file1.py;260;"print(""Goodbye, Alice!"")"
